@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Oswald:wght@200..700&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+
+
+  
+#menu{
+    list-style: none;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#menu  ul li {
+    display: inline;
+}
+
+
+#menu ul li a{
+    display: inline-block;
+    position: relative;
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(247, 247, 247);
+    transition: background 2s;
+
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    
+}
+#menu ul li a:hover{
+    background-color: blue;
+    padding-bottom: 10px;
+     bottom: 5px;
+  
+}
+#menu ul li:last-child a{
+    float: right;
+    background-color: blue;
+
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    
+}
+
+img{
+    width: 100%;
+
+    border: solid 1px darkblue;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+}
+
+.div_1{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 5px;
+}
+
+#corp {
+    background: rgb(14,13,19);
+    background: rgb(0,26,176);
+    background: linear-gradient(90deg, rgba(0,26,176,1) 1%, rgba(2,5,38,0.9649532710280374) 50%, rgba(16,6,205,0.9976635514018691) 85%);
+}
+#dv_pr_1 {
+    
+    background: rgb(193,191,236);
+    background: linear-gradient(90deg, rgba(193,191,236,1) 29%, rgba(9,9,121,1) 80%, rgba(0,212,255,1) 100%);
+    padding: 5px;
+    border-style: solid;
+    border-color: #f57600;
+    border-width: 1px;
+    border-radius: 19px;
+    text-align: left;
+} 
+#dv_pr_2 {
+    
+    background: rgb(193,191,236);
+    background: rgb(193,191,236);
+    background: linear-gradient(90deg, rgba(193,191,236,1) 37%, rgba(246,0,7,1) 72%, rgba(128,0,255,1) 100%);
+    padding: 3px;
+    border-style: solid;
+    border-color: #001aff;
+    border-width: 2px;
+    border-radius: 10px;
+    text-align: right;
+    font-size: large;
+    color:aliceblue;
+} 
+#dv_pr_3 {
+    
+    background: rgb(193,191,236);
+    background: rgb(193,191,236);
+    background: rgb(22,12,240);
+    background: linear-gradient(90deg, rgba(22,12,240,1) 22%, rgba(0,246,184,1) 58%, rgba(0,255,133,1) 89%);
+    border-style: solid;
+    border-color: #001aff;
+    border-width: 2px;
+    border-radius: 10px;
+    text-align: center;
+    padding-left: 6px;
+    font-size: medium;
+    color: aliceblue;
+
+}
+
+
